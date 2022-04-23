@@ -83,7 +83,7 @@ studentInfo.map( ( data, index ) => {
             Roll      : ${ data[2] }
             Age       : ${ data[3] }
             Gender    : ${ data[4] }
-            Locayion  : ${ data[5] }
+            Location  : ${ data[5] }
             Fee       : ${ data[6] }
         `);
     }
@@ -102,7 +102,7 @@ studentInfo.map( ( data, index ) => {
             Roll      : ${ data[2] }
             Age       : ${ data[3] }
             Gender    : ${ data[4] }
-            Locayion  : ${ data[5] }
+            Location  : ${ data[5] }
             Fee       : ${ data[6] }
         `);
     }
