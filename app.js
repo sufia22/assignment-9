@@ -279,24 +279,24 @@ const students = [
 
 
 // Total Admnission fees
-// let total_fee = 0;
-// for( data of students ){
-//     console.log(`
-//         Name        : ${ data.name }
-//         Roll        : ${ data.roll }
-//         Age         : ${ data.age }
-//         Class Name  : ${ data.classname }
-//         Gender      : ${ data.gender }
-//         Location    : ${ data.location }
-//         Fee         : ${ data.fee }
-//     `);
-//     total_fee += data.fee;
-// }
+let total_fee = 0;
+for( data of students ){
+    console.log(`
+        Name        : ${ data.name }
+        Roll        : ${ data.roll }
+        Age         : ${ data.age }
+        Class Name  : ${ data.classname }
+        Gender      : ${ data.gender }
+        Location    : ${ data.location }
+        Fee         : ${ data.fee }
+    `);
+    total_fee += data.fee;
+}
 
-// console.log(`
-// ---------------------------------------
-// Total Admission Fee  = ${total_fee}
-// `);
+console.log(`
+---------------------------------------
+Total Admission Fee  = ${total_fee}
+`);
 
 
 
@@ -307,19 +307,19 @@ const students = [
 
 
 // Find All Female Students
-// for( data of students ){
-//     if( data.gender == 'Female' ){
-//         console.log(`
-//         Name        : ${ data.name }
-//         Roll        : ${ data.roll }
-//         Age         : ${ data.age }
-//         Class Name  : ${ data.classname }
-//         Gender      : ${ data.gender }
-//         Location    : ${ data.location }
-//         Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.gender == 'Female' ){
+        console.log(`
+        Name        : ${ data.name }
+        Roll        : ${ data.roll }
+        Age         : ${ data.age }
+        Class Name  : ${ data.classname }
+        Gender      : ${ data.gender }
+        Location    : ${ data.location }
+        Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
@@ -329,53 +329,53 @@ const students = [
 
 
 // class wise student result
-// for( data of students ){
-//     if( data.classname == 4 ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.classname == 4 ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
 
-// for( data of students ){
-//     if( data.classname == 3 && data.location == 'Mirpur' ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.classname == 3 && data.location == 'Mirpur' ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
 
-// for( data of students ){
-//     if( data.classname == 5 && data.age > 10 && data.age <= 20 ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.classname == 5 && data.age > 10 && data.age <= 20 ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
@@ -389,36 +389,36 @@ const students = [
 
 
 // Location wise student result
-// for( data of students ){
-//     if( data.location == 'Banani' ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.location == 'Banani' ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
 
-// for( data of students ){
-//     if( data.location == 'Uttara' && data.gender == 'Male' ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.location == 'Uttara' && data.gender == 'Male' ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
@@ -431,19 +431,19 @@ const students = [
 
 
 // student between 10 - 25 age
-// for( data of students ){
-//     if( data.age >= 10 && data.age <= 25 ){
-//         console.log(`
-//             Name        : ${ data.name }
-//             Roll        : ${ data.roll }
-//             Age         : ${ data.age }
-//             Class Name  : ${ data.classname }
-//             Gender      : ${ data.gender }
-//             Location    : ${ data.location }
-//             Fee         : ${ data.fee }
-//         `);
-//     }
-// }
+for( data of students ){
+    if( data.age >= 10 && data.age <= 25 ){
+        console.log(`
+            Name        : ${ data.name }
+            Roll        : ${ data.roll }
+            Age         : ${ data.age }
+            Class Name  : ${ data.classname }
+            Gender      : ${ data.gender }
+            Location    : ${ data.location }
+            Fee         : ${ data.fee }
+        `);
+    }
+}
 
 
 
