@@ -430,7 +430,7 @@ for( data of students ){
 
 
 
-// student between 10 - 25 age
+// student between 10 - 25 age  
 for( data of students ){
     if( data.age >= 10 && data.age <= 25 ){
         console.log(`
