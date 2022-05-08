@@ -1,475 +1,283 @@
+const result = [
 
-
-const students = [
     {
-        name        : 'Zoynal Abedin',
+        name        : 'akash',
+        reg         : 15487554,
         roll        : 1,
-        age         : 10,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 4000
+        location    : 'manikgonj',
+
+
+        bn          : 50,
+        en          : 70,
+        math        : 80,
+        s           : 60,
+        ss          : 40,
+        rel         : 90,
+
     },
+
     {
-        name        : 'Zinnah Ali',
+        name        : 'rakib',
+        reg         : 15527554,
         roll        : 2,
-        age         : 14,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 4500
+        location    : 'dhaka',
+
+
+        bn          : 50,
+        en          : 60,
+        math        : 50,
+        s           : 60,
+        ss          : 40,
+        rel         : 90,
+
     },
+
     {
-        name        : 'Toquir Ahmed',
+        name        : 'abu said',
+        reg         : 15448554,
         roll        : 3,
-        age         : 18,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 6500
+        location    : 'mirpur',
+
+
+        bn          : 40,
+        en          : 35,
+        math        : 40,
+        s           : 50,
+        ss          : 70,
+        rel         : 59,
+
     },
+
     {
-        name        : 'Tahir Hossain',
+        name        : 'abu sufial',
+        reg         : 15445554,
         roll        : 4,
-        age         : 9,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 3000
+        location    : 'shelat',
+
+
+        bn          : 50,
+        en          : 66,
+        math        : 50,
+        s           : 60,
+        ss          : 40,
+        rel         : 70,
+
     },
+
     {
-        name        : 'Sumi Alam',
+        name        : 'nur amin',
+        reg         : 15486854,
         roll        : 5,
-        age         : 15,
-        classname   : 5,
-        gender      : 'Female',
-        location    : 'Uttara',
-        fee         : 7800
+        location    : 'uttora',
+
+
+        bn          : 50,
+        en          : 60,
+        math        : 50,
+        s           : 60,
+        ss          : 49,
+        rel         : 48,
+
     },
+
     {
-        name        : 'Shariful Islam',
+        name        : 'Ridom',
+        reg         : 15478958,
         roll        : 6,
-        age         : 23,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 8500
+        location    : 'mirpur',
+
+
+        bn          : 60,
+        en          : 70,
+        math        : 90,
+        s           : 50,
+        ss          : 60,
+        rel         : 77,
     },
     {
-        name        : 'Shirajam Munir',
+        name        : 'Fahim',
+        reg         : 15478958,
         roll        : 7,
-        age         : 17,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 4000
+        location    : 'Dhaka',
+
+
+        bn          : 60,
+        en          : 70,
+        math        : 47,
+        s           : 50,
+        ss          : 60,
+        rel         : 25,
     },
     {
-        name        : 'Sharmin Sultana',
+        name        : 'Ayon',
+        reg         : 15478958,
         roll        : 8,
-        age         : 8,
-        classname   : 3,
-        gender      : 'Female',
-        location    : 'Uttara',
-        fee         : 8700
+        location    : 'Manikgonj',
+
+
+        bn          : 60,
+        en          : 70,
+        math        : 90,
+        s           : 50,
+        ss          : 60,
+        rel         : 80,
     },
     {
-        name        : 'Sha Jib',
+        name        : 'Shanta',
+        reg         : 15478958,
         roll        : 9,
-        age         : 8,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 5600
-    },
-    {
-        name        : 'Sayyid Saadi',
-        roll        : 10,
-        age         : 27,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 3400
-    },
-    {
-        name        : 'Sajol Khan',
-        roll        : 11,
-        age         : 29,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 7900
-    },
-    {
-        name        : 'Sajjadul Hossain',
-        roll        : 12,
-        age         : 30,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 9700
-    },
-    {
-        name        : 'S. S. M. Rayhanuzzaman',
-        roll        : 13,
-        age         : 17,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 3400
-    },
-    {
-        name        : 'Ş. Ą. Ąsha',
-        roll        : 14,
-        age         : 25,
-        classname   : 4,
-        gender      : 'Female',
-        location    : 'Uttara',
-        fee         : 6500
-    },
-    {
-        name        : 'S M Zahid Hasan',
-        roll        : 15,
-        age         : 30,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 6500
-    },
-    {
-        name        : 'S D Rubel Mahmud',
-        roll        : 16,
-        age         : 27,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 5800
-    },
-    {
-        name        : 'Russell Azim',
-        roll        : 17,
-        age         : 23,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 3300
-    },
-    {
-        name        : 'Rex Ekra King',
-        roll        : 18,
-        age         : 14,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 2300
-    },
-    {
-        name        : 'Raihanul Tushar',
-        roll        : 19,
-        age         : 19,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 4000
-    },
-    {
-        name        : 'Rafsan Jani',
-        roll        : 20,
-        age         : 29,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 6700
-    },
-    {
-        name        : 'Rabiul Zahid',
-        roll        : 21,
-        age         : 34,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 7700
-    },
-    {
-        name        : 'Pk Pk',
-        roll        : 22,
-        age         : 24,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 5500
-    },
-    {
-        name        : 'Ovimanii Sohag',
-        roll        : 23,
-        age         : 26,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 7800
-    },
-    {
-        name        : 'Nusrat Sarmin',
-        roll        : 24,
-        age         : 15,
-        classname   : 3,
-        gender      : 'Female',
-        location    : 'Banani',
-        fee         : 6800
-    },
-    {
-        name        : 'Nasir Khan',
-        roll        : 25,
-        age         : 27,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 9000
-    },
-    {
-        name        : 'Naimur Rahman',
-        roll        : 26,
-        age         : 17,
-        classname   : 3,
-        gender      : 'Male',
-        location    : 'Uttara',
-        fee         : 7800
-    },
-    {
-        name        : 'Naimul Hasan',
-        roll        : 27,
-        age         : 26,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 5900
-    },
-    {
-        name        : 'Nahian Khondokar',
-        roll        : 28,
-        age         : 7,
-        classname   : 5,
-        gender      : 'Male',
-        location    : 'Mirpur',
-        fee         : 2000
-    },
-    {
-        name        : 'Munira Akter',
-        roll        : 29,
-        age         : 16,
-        classname   : 3,
-        gender      : 'Female',
-        location    : 'Uttara',
-        fee         : 5600
-    },
-    {
-        name        : 'Muhammad Nazmul Huda',
-        roll        : 30,
-        age         : 10,
-        classname   : 4,
-        gender      : 'Male',
-        location    : 'Banani',
-        fee         : 5400
+        location    : 'Gazipur',
+
+
+        bn          : 60,
+        en          : 70,
+        math        : 70,
+        s           : 50,
+        ss          : 45,
+        rel         : 60,
+    }
+]
+
+
+
+
+result.map((data) =>{
+
+let bn      = data.bn;
+let en      = data.en ;
+let math    = data.math ;
+let s       = data.s ;
+let ss      = data.ss ;
+let rel     = data.rel ;
+
+   
+    function Akash (){
+
+
+
+        this.gpa = function (mark){
+            if(mark >= 0 && mark < 33 ){
+                return 0
+
+            }else if ( mark >= 33 && mark < 40){
+                return 1
+
+            }else if ( mark >= 40 && mark < 50 ){
+                return 2
+
+            }else if ( mark >= 50 && mark < 60 ){
+                return 3
+
+            }else if ( mark >= 60 && mark < 70 ){
+                return 3.5
+
+            }else if ( mark >= 70 && mark < 80 ){
+                return 4
+
+            }else if ( mark >= 80 && mark <=100 ){
+                return 5
+            }
+        }
+
+
+
+
+
+
+        this.grade =function (mark){
+            if( mark >= 0 && mark < 33 ){
+                return 'F'
+    
+            }else if ( mark >= 33 && mark < 40 ){
+                return 'D'
+
+            }else if ( mark >= 40 && mark < 50 ){
+                return 'C'
+
+            }else if ( mark >= 50 && mark < 60 ){
+                return 'B'
+
+            }else if ( mark >= 60 && mark < 70 ){
+                return 'A-'
+
+            }else if ( mark >= 70 && mark < 80 ){
+                return 'A'
+
+            }else if ( mark >= 80 && mark <= 100){
+                return 'A+'
+            }
+        
+        }
+
+
+        this.fainalgpa = function (bn, en, math, s, ss, rel){
+
+
+            total = ( bn + en + math + s + ss + rel);
+            cgpa   = ( total / 6 )
+
+
+            if( bn == 0 || en == 0 || math == 0 || s == 0 || ss == 0 || rel == 0 ){
+                return `you are feaild`
+                
+            }else{
+                return ` ${cgpa} and your total grade ${this.fainalgrade(cgpa)} `
+            }
+        }
+
+        this.fainalgrade = function (cgpa){
+
+            if( cgpa >= 0 && cgpa < 1 ){
+                return 'F'
+
+            }else if ( cgpa >= 1 && cgpa < 2 ){
+                return 'D'
+
+            }else if ( cgpa >= 2 && cgpa < 3 ){
+                return 'C'
+
+            }else if ( cgpa >= 3 && cgpa < 3.5 ){
+                return 'B'
+                
+            }else if ( cgpa >= 3.5 && cgpa < 4 ){
+                return 'A-'
+
+            }else if ( cgpa >= 4 && cgpa < 5){
+                return 'A'
+
+            }else if ( cgpa == 5){
+                return 'A+'
+            }
+        }
+        
+
+        
+
+
     }
 
-];
+    let akash = new Akash ;
 
-
-
-
-
-// Total Admnission fees
-let total_fee = 0;
-for( data of students ){
     console.log(`
-        Name        : ${ data.name }
-        Roll        : ${ data.roll }
-        Age         : ${ data.age }
-        Class Name  : ${ data.classname }
-        Gender      : ${ data.gender }
-        Location    : ${ data.location }
-        Fee         : ${ data.fee }
-    `);
-    total_fee += data.fee;
-}
-
-console.log(`
----------------------------------------
-Total Admission Fee  = ${total_fee}
-`);
-
-
-
-
-
-
-
-
-
-// Find All Female Students
-for( data of students ){
-    if( data.gender == 'Female' ){
-        console.log(`
-        Name        : ${ data.name }
-        Roll        : ${ data.roll }
-        Age         : ${ data.age }
-        Class Name  : ${ data.classname }
-        Gender      : ${ data.gender }
-        Location    : ${ data.location }
-        Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-
-
-
-
-// class wise student result
-for( data of students ){
-    if( data.classname == 4 ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-for( data of students ){
-    if( data.classname == 3 && data.location == 'Mirpur' ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-for( data of students ){
-    if( data.classname == 5 && data.age > 10 && data.age <= 20 ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// Location wise student result
-for( data of students ){
-    if( data.location == 'Banani' ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-for( data of students ){
-    if( data.location == 'Uttara' && data.gender == 'Male' ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-// student between 10 - 25 age  
-for( data of students ){
-    if( data.age >= 10 && data.age <= 25 ){
-        console.log(`
-            Name        : ${ data.name }
-            Roll        : ${ data.roll }
-            Age         : ${ data.age }
-            Class Name  : ${ data.classname }
-            Gender      : ${ data.gender }
-            Location    : ${ data.location }
-            Fee         : ${ data.fee }
-        `);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    name        : ${data.name}
+    reg         : ${data.reg}
+    roll        : ${data.roll}
+    location    : ${data.location}
+    Subjuct                     Mark                        Gpa                             Grade
+-------------------------------------------------------------------------------------------------------
+    Bangla              =       ${bn}                   ${akash.gpa(bn)}                    ${akash.grade(bn)}                            
+    English             =       ${en}                   ${akash.gpa(en)}                    ${akash.grade(en)}                       
+    Math                =       ${math}                 ${akash.gpa(math)}                  ${akash.grade(math)}                   
+    Science             =       ${s}                    ${akash.gpa(s)}                     ${akash.grade(s)}              
+    Social Science      =       ${ss}                   ${akash.gpa(ss)}                    ${akash.grade(ss)}                
+    Reagion             =       ${rel}                  ${akash.gpa(rel)}                   ${akash.grade(rel)}   
+    
+===========================================================================================================================
+ your total gpa = ${akash.fainalgpa(akash.gpa(bn),akash.gpa(en),akash.gpa(math),akash.gpa(s),akash.gpa(ss),akash.gpa(rel))}
+        
+    `); 
+
+
+
+})
