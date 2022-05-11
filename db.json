@@ -1,0 +1,69 @@
+{
+    "students" : [
+        {
+            "id"    : 1,
+            "name"  : "Sufia Akter",
+            "class" : 3,
+            "roll"  : 5
+        },
+        {
+            "id"    : 2,
+            "name"  : "Safa Alam",
+            "class" : 3,
+            "roll"  : 8
+        },
+        {
+            "id"    : 3,
+            "name"  : "Anisul Haque",
+            "class" : 3,
+            "roll"  : 15
+        },
+        {
+            "id"    : 4,
+            "name"  : "Jibon Haque",
+            "class" : 3,
+            "roll"  : 25
+        },
+        {
+            "id"    : 5,
+            "name"  : "Ayesha Kabir",
+            "class" : 3,
+            "roll"  : 12
+        }
+    ],
+
+
+
+    "teachers"  : [
+        {
+            "id"    : 1,
+            "name"  : "Ashraful Haque",
+            "age"   : 16,
+            "skill" : "Mern Developer"
+        },
+        {
+            "id"    : 2,
+            "name"  : "Biplab Saha",
+            "age"   : 12,
+            "skill" : "PHP Developer"
+        },
+        {
+            "id"    : 3,
+            "name"  : "Mowlana Sujon",
+            "age"   : 23,
+            "skill" : "IOS Developer"
+        },
+        {
+            "id"    : 4,
+            "name"  : "Moin Ahmed",
+            "age"   : 12,
+            "skill" : "Laravel Developer"
+        },
+        {
+            "id"    : 5,
+            "name"  : "Munira Akter",
+            "age"   : 10,
+            "skill" : "AI Developer"
+        }
+    ]
+}
